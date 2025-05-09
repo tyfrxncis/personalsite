@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Fira_Mono } from "next/font/google";
-import "./globals.css";
+import "./globals.scss";
 import { cn } from "~/lib/utils";
 import {ThemeProvider} from "~/components/providers/theme-provider";
 
@@ -9,7 +9,7 @@ const websiteName = "francis.mawanda.dev";
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://francis.mawanda.dev/"),
+  metadataBase: new URL("https://francism.dev/"),
   title: `${websiteName}`,
   description: "This is my website",
   openGraph: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: "This is my website",
     images: "/assets/palm_tree.png",
   },
-  authors: [{ name: "Francis Mawanda", url: "https://francis.mawanda.dev" }],
+  authors: [{ name: "Francis Mawanda", url: "https://francism.dev" }],
 };
 
 export default function RootLayout({

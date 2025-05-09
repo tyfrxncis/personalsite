@@ -1,0 +1,11 @@
+.button *  {
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+.button:hover .icon {
+    transform: rotate(360deg);
+    
+
+
+}
